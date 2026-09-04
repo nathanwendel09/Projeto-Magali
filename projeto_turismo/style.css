@@ -1,0 +1,13 @@
+body {
+    height: 100px;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.card {
+    height: 100%;
+    transition: 0.3s;
+}
