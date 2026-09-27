@@ -1,13 +1,29 @@
 body {
-    height: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .carousel-item img {
-    height: 500px;
-    object-fit: cover;
+  height: 500px;
+  object-fit: cover;
 }
 
 .card {
-    height: 100%;
-    transition: 0.3s;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15) !important;
+}
+
+.carousel-caption {
+  background: rgba(0,0,0,0.45);
+  border-radius: 10px;
+  padding: 15px 25px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #0d6efd;
+  color: white;
 }
